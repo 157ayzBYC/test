@@ -4,11 +4,15 @@ public class Mobil {
     String spekMesin;
     int tahun;
 
+    void menyalakanMesin() {
+        System.out.println("Mesin mobil menyala");
+    }
 
 
-    public static void main(String[] args) {
-        Mobil mobil = new Mobil();
-        System.out.println("mobil");
-        System.out.println("ajgjk");
+String mengemudi( String arah ) {
+    return "Mobil bergerak ke arah" +;
+}
+
+
     }
 }
